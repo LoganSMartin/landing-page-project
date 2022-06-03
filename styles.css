@@ -200,6 +200,7 @@ nav li {
   border-radius: 8px;
   margin: 10px 0;
   border-style: none;
+  cursor: pointer;
 }
 
 #heroImg {
@@ -273,4 +274,53 @@ blockquote {
   font-weight: bold;
   margin-top: 10px;
   margin-left: 625px;
+}
+
+#call {
+  background-color: white;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#action {
+  background-color: #3882f6;
+  width: 50%;
+  height: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 10px;
+}
+
+#actionText {
+  color: white;
+}
+
+#actionText h3 {
+  font-size: 26px;
+  font-weight: bold;
+}
+
+#actionText p {
+  font-size: 18px;
+  font-weight: 300;
+}
+
+#call button {
+  background-color: #3882f6;
+  color: white;
+  font-size: 22px;
+  border: white 2px solid;
+  border-radius: 7px;
+  padding: 5px 30px;
+  cursor: pointer;
+}
+
+#call button:hover {
+  background-color: white;
+  color: #3882f6;
 }
