@@ -199,10 +199,55 @@ nav li {
   height: 30px;
   border-radius: 8px;
   margin: 10px 0;
+  border-style: none;
 }
 
 #heroImg {
   width: 600px;
   height: 300px;
   margin: 150px 500px 150px 50px;
+}
+
+#info {
+  background-color: white;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#info h2 {
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2937;
+  margin: 50px 0;
+}
+
+.infoBox {
+  border: #3882f6 solid 5px;
+  padding: 80px;
+  border-radius: 20px;
+}
+
+#infoParent {
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  justify-content: space-evenly;
+}
+
+#infoTextParent {
+display: flex;
+flex-direction: row;
+width: 50%;
+justify-content: space-evenly;
+}
+
+#infoTextParent p {
+  font-size: 18px;
+  text-align: center;
+  color: gray;
+  width: 170px;
+  justify-content: space-evenly;
+  margin: 10px 0;
 }
