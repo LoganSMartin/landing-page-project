@@ -324,3 +324,16 @@ blockquote {
   background-color: white;
   color: #3882f6;
 }
+
+footer {
+  background-color: #1f2937;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer p {
+  color: white;
+  font-size: 18px;
+}
